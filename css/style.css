@@ -1,0 +1,171 @@
+
+li {
+    list-style: none;
+}
+
+.header, .footer{
+    background-image: linear-gradient(to right, rgb(53, 4, 53), white);
+    border-bottom: 3px black;
+}
+
+.estudio{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: initial;
+    font-size: 30px;
+    text-shadow: 1px gold;
+}
+
+/* NAVBAR */
+.barra{
+    background-image: linear-gradient(to right, rgb(53, 4, 53), white);
+    border-top: white solid 1px;
+
+}   
+
+
+#colorNav {
+    color: white;
+}
+
+#colorNav:hover {
+    color: black;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition-delay: 0.5s;
+}
+
+/* MAIN */
+
+.somos{
+    text-align: center;
+    font-family: arial;
+    color: #280233;
+    padding: 3px 0px;
+    margin-top: 20px;
+    
+}
+.p-pres{
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+/* ASIDE */
+.div-noticias{
+    padding: 20px 5px;
+    
+}
+#tarjetas {
+    margin-left: 55px;
+}
+
+.noticias {
+    background-image: linear-gradient(to right, rgb(53, 4, 53), white);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    /* text-align: center; */
+    text-transform: capitalize;
+    color: black;
+    padding: 10px 0px;
+}
+#div-fotos{
+    padding-top: 30px;
+}
+
+#btn__{
+    background-color: #280233;
+    border: black solid 1px;
+}
+
+#btn__:hover{
+    background-image: linear-gradient(to right, rgb(53, 4, 53), white);
+    color: #280233;
+}
+
+/* SECTION */
+
+#fotos{
+    padding: 20px 0px;
+}
+
+#color-btn{
+    background-color: gold;
+}
+
+#color-btn-A{
+    background-color: white;
+}
+
+/* FOOTER */
+
+#datos{
+    margin-top: 20px;
+}
+
+.copy{
+    background-image: linear-gradient(to right, rgb(53, 4, 53), white);
+    padding: 5px 0px;
+}
+
+
+
+
+/* CONTACTO*/
+
+#btn__form{
+    background-image: linear-gradient(to right, rgb(53, 4, 53), white);
+    color: black;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#btn__form:hover{
+    background-color:white;
+    color: #280233;
+    border: none;
+    transition-delay: 0.5s;
+    border-bottom: solid 2px #280233 ;
+    border-left: solid 2px #280233 ;
+    border-top: solid 1px #280233 ;
+    border-right: solid 1px #280233 ;
+}
+.form__texto{
+    background-color: #280233;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* NOSOTROS */
+#envolver{
+    float: right;
+}
+
+.nos__text{
+    text-align: justify;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 575.98px) {
+
+    .resp-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .resp-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
